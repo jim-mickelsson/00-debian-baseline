@@ -1,0 +1,12 @@
+*.env
+TF_VAR_*
+*.tfvars
+*.tfvars.json
+*tfstate*
+.terraform/
+.vault_pass
+crash.log
+crash.*.log
+*.retry
+.terraformrc
+terraform.rc
