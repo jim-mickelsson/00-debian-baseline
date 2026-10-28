@@ -38,6 +38,7 @@ resource "proxmox_virtual_environment_vm" "lab_baseline_01" {
   network_device {
     bridge = "vmbr1"
     vlan_id = 110
+    mac_address = "02:00:00:01:10:10" # locally administered, VM id pattern
   }
 
   initialization { # cloud-init
