@@ -1,6 +1,7 @@
 *.env
 TF_VAR_*
 *.tfvars
+!terraform.tfvars
 *.tfvars.json
 *tfstate*
 .terraform/
