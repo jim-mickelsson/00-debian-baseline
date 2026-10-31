@@ -23,3 +23,8 @@ variable "vm_ipv4_gateway" {
   description = "IPv4 gateway"
   type = string
 }
+
+variable "vm_mac_address" {
+  description = "Static MAC address. Locally administered unicast, based on the VM id."
+  type = string
+}
