@@ -9,3 +9,11 @@ Terraform clones a Debian 13 cloud image template into a VM. Cloud-init sets a s
 ## Purpose
 
 A learning project: building infrastructure as code step by step in a segmented home lab.
+
+## Usage
+
+The SSH key for the `ansible` user has a passphrase. Load it into an agent before running Ansible.
+
+```
+ssh-add -t 1h ~/.ssh/ansible
+```
